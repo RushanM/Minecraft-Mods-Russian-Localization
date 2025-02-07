@@ -453,7 +453,7 @@ achievement.tame_bird=Птицелов
 achievement.tame_bird.desc=Приручите птицу, сначала бросая рядом семена, а потом откормив вручную из руки. Если разместить птицу на голове, она будет замедлять вам падения с высоких выступов.
   
 achievement.feed_snake_with_live_mouse=Живой корм
-achievement.feed_snake_with_live_mouse.desc=Скрёстно ПКМ накормите взрослую змею живой мышью.
+achievement.feed_snake_with_live_mouse.desc=Накормите взрослую одомашненную змею живой мышью. Для этого используйте ПКМ с зажатой Shift с живой мышью в руке по змее.
   
 achievement.tame_panda=Укротитель панд
 achievement.tame_panda.desc=Приручите детёныша панды сахаром или бамбуком.
@@ -511,3 +511,42 @@ achievement.kill_big_golem.desc=Убейте большого голема и д
   
 achievement.leonardo=Леонардо
 achievement.leonardo.desc=Получите катану от черепашки Леонардо. Вы можете приручить черепах, бросая тростник и кусочки арбуза рядом с ними. Катаны поддаются ремонту на наковальне с использованием железных слитков.
+
+achievement.raphael=Рафаэль
+achievement.raphael.desc=Добудьте сай от черепашки Рафаэля. Вы можете приручить черепах, бросая тростник и кусочки арбуза рядом с ними. Сай поддаётся ремонту на наковальне с использованием железных слитков.
+  
+achievement.donatello=Донателло
+achievement.donatello.desc=Добудьте бо от черепашки Донателло. Вы можете приручить черепах, бросая тростник и кусочки арбуза рядом с ними.
+  
+achievement.michelangelo=Микеланджело
+achievement.michelangelo.desc=Добудьте нунчаки от черепашки Микеланджело. Вы можете приручить черепах, бросая тростник и кусочки арбуза рядом с ними. Нунчаки поддаются ремонту на наковальне с использованием железных слитков.
+  
+achievement.silver_sword=Гроза оборотней
+achievement.silver_sword.desc=Добудьте серебряный меч от серебряного скелета.
+  
+achievement.get_fur=Убийца зверушек
+achievement.get_fur.desc=Добудьте мех.
+  
+achievement.fur_armor=Эскимосский наряд
+achievement.fur_armor.desc=Создайте любую часть меховой брони. Ремонтируется мехом в наковальне.
+  
+achievement.get_hide=Охотник
+achievement.get_hide.desc=Добудьте шкуру.
+  
+achievement.hide_armor=Выбор егеря
+achievement.hide_armor.desc=Создайте любую часть кожаной брони. Ремонтируется шкурой в наковальне.
+  
+achievement.get_reptile_hide=Охотник на рептилий
+achievement.get_reptile_hide.desc=Добудьте чешую рептилий.
+  
+achievement.reptile_armor=Крепка как железо
+achievement.reptile_armor.desc=Создайте любую часть брони из чешуи. Ремонтируется чешуёй в наковальне.
+  
+achievement.get_scorpion_material=Охотник на скорпионов
+achievement.get_scorpion_material.desc=Добудьте хитин или жало скорпиона.
+  
+achievement.scorpion_sword=Мечник скорпионов
+achievement.scorpion_sword.desc=Создайте любой меч скорпиона. Ремонтируется алмазами в наковальне.
+  
+achievement.scorpion_armor=Воин скорпионов
+achievement.scorpion_armor.desc=Создайте любую часть брони скорпиона. Полный набор даёт бонус. Ремонтируется хитином того же типа в наковальне."
