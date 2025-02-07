@@ -1,19 +1,19 @@
 itemGroup.MoCreaturesTab=Mo' Creatures
   
 tile.MoCGrass.WyvernLair.name=Трава логова виверны
-tile.MoCGrass.OgreLair.name=Трава логова огров
+tile.MoCGrass.OgreLair.name=Трава логова огра
 tile.MoCStone.WyvernLair.name=Камень логова виверны
-tile.MoCStone.OgreLair.name=Камень логова огров
+tile.MoCStone.OgreLair.name=Камень логова огра
 tile.MoCDirt.WyvernLair.name=Земля логова виверны
-tile.MoCDirt.OgreLair.name=Земля логова огров
+tile.MoCDirt.OgreLair.name=Земля логова огра
 tile.MoCLeaves.WyvernLair.name=Листья логова виверны
-tile.MoCLeaves.OgreLair.name=Листья логова огров
+tile.MoCLeaves.OgreLair.name=Листья логова огра
 tile.MoCLog.WyvernLair.name=Бревно логова виверны
-tile.MoCLog.OgreLair.name=Бревно логова огров
+tile.MoCLog.OgreLair.name=Бревно логова огра
 tile.MoCTallGrass.WyvernLair.name=Высокая трава логова виверны
-tile.MoCTallGrass.OgreLair.name=Высокая трава логова огров
+tile.MoCTallGrass.OgreLair.name=Высокая трава логова огра
 tile.MoCWoodPlank.WyvernLair.name=Доски логова виверны
-tile.MoCWoodPlank.OgreLair.name=Доски логова огров
+tile.MoCWoodPlank.OgreLair.name=Доски логова огра
 
 item.amuletbone.name=Костный амулет
 item.amuletbonefull.name=Костный амулет
@@ -88,7 +88,7 @@ item.kittybed.magenta.name=Пурпурная лежанка для котика
 item.kittybed.orange.name=Оранжевая лежанка для котика
 item.kittybed.white.name=Белая лежанка для котика
 item.kittylitter.name=Кошачий лоток
-item.mammothplatform.name=Платформа мамонта
+item.mammothplatform.name=Мамонтовая платформа
 item.medallion.name=Медальон
 item.mocegg.name=Испорченное яйцо
 item.mocegg.0.name=Синее рыбье яйцо
