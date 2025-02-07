@@ -376,7 +376,7 @@
 * * [Dark Mode Everywhere](https://modrinth.com/mod/dark-mode-everywhere);
 * [**ggleb2**](https://github.com/ggleb2) и [**Western01**](https://github.com/marisathewitch): сделали полезные указания;
 * [**Бланк**](https://github.com/SillyAsriel): участвовал в принятии решений, перевёл некоторые квесты Monifactory;
-* [**TheAnaxMan**](https://github.com/TheAnaxMan): предложил переводы:;
+* [**TheAnaxMan**](https://github.com/TheAnaxMan): предложил переводы:
 * * [All the Fabric 6](https://github.com/RushanM/Minecraft-Mods-Russian-Translation/tree/alpha/%D0%A1%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/All%20of%20Fabric%206);
 * * [All the Ores](https://www.curseforge.com/minecraft/mc-mods/ato);
 * * [Allthemodium](https://www.curseforge.com/minecraft/mc-mods/allthemodium);
@@ -438,7 +438,8 @@
 * [**YooGoose**](https://github.com/RRimmer): предложил перевод модов:
 * * [Zenith Attributes](https://modrinth.com/mod/zenith-attributes);
 * * [Zenith](https://modrinth.com/mod/zenith);
-* [**NeCroZ**](https://github.com/RRimmer): предложил перевод модов:
+* [**Бролекс**](https://www.curseforge.com/members/thebrolecs): предложил перевод мода Easy Emerald Tools & More [FABRIC];
+* [**NeCroZ**](https://minecraft-inside.ru/forum/profile/5244-necroz/): предложил перевод модов:
 * * [Create Stuff & Additions](https://modrinth.com/mod/create-stuff-additions);
 * * [Create: The Factory Must Grow](https://modrinth.com/mod/create-tfmg);
 * * [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map);
