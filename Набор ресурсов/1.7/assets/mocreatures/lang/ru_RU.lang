@@ -303,283 +303,283 @@ death.MoCreatures.attack.dehydration=%1$s умер от обезвоживани
   
 achievements.MoCreaturesTab=Mo' Creatures
   
-achievement.craft_saddle=Мастер сёдел
-achievement.craft_saddle.desc=Создайте самодельное седло. Наденьте на ездового питомца, чтобы оседлать его. Также седло/снаряжение можно снять при помощи ножниц.
+achievement.MoCreatures.craft_saddle=Мастер сёдел
+achievement.MoCreatures.craft_saddle.desc=Создайте самодельное седло. Наденьте на ездового питомца, чтобы оседлать его. Также седло/снаряжение можно снять при помощи ножниц.
   
-achievement.tier2_horse=Лошадь 2 уровня
-achievement.tier2_horse.desc=Приручите обычную лошадь из Mo' Creatures с помощью яблока.
+achievement.MoCreatures.tier2_horse=Лошадь 2 уровня
+achievement.MoCreatures.tier2_horse.desc=Приручите обычную лошадь из Mo' Creatures с помощью яблока.
   
-achievement.tier3_horse=Лошадь 3 уровня
-achievement.tier3_horse.desc=Сведите лошадь 2 уровня с обычной лошадью Minecraft, используя тыквы, торт или тушёные грибы.
+achievement.MoCreatures.tier3_horse=Лошадь 3 уровня
+achievement.MoCreatures.tier3_horse.desc=Сведите лошадь 2 уровня с обычной лошадью Minecraft, используя тыквы, торт или тушёные грибы.
   
-achievement.tier4_horse=Лошадь 4 уровня
-achievement.tier4_horse.desc=Сведите лошадь 3 уровня с обычной лошадью Minecraft, используя тыквы, торт или тушёные грибы.
+achievement.MoCreatures.tier4_horse=Лошадь 4 уровня
+achievement.MoCreatures.tier4_horse.desc=Сведите лошадь 3 уровня с обычной лошадью Minecraft, используя тыквы, торт или тушёные грибы.
   
-achievement.zebra=Укротитель зебр
-achievement.zebra.desc=Приручите зебру, подойдя к ней с лошадью 4 уровня и накормив яблоком. Зебры обитают в саваннах.
+achievement.MoCreatures.zebra=Укротитель зебр
+achievement.MoCreatures.zebra.desc=Приручите зебру, подойдя к ней с лошадью 4 уровня и накормив яблоком. Зебры обитают в саваннах.
   
-achievement.zebra_record=Мельбурнский шаффл
-achievement.zebra_record.desc=Добудьте зебровую пластинку, скормив приручённой зебре любую из пластинок Minecraft. Это их любимая музыка.
+achievement.MoCreatures.zebra_record=Мельбурнский шаффл
+achievement.MoCreatures.zebra_record.desc=Добудьте зебровую пластинку, скормив приручённой зебре любую из пластинок Minecraft. Это их любимая музыка.
   
-achievement.zorse=Зошадь
-achievement.zorse.desc=Сведите приручённую зебру с лошадью, используя тыквы, торт или тушёные грибы.
+achievement.MoCreatures.zorse=Зошадь
+achievement.MoCreatures.zorse.desc=Сведите приручённую зебру с лошадью, используя тыквы, торт или тушёные грибы.
   
-achievement.heart_undead=Сердце нежити
-achievement.heart_undead.desc=Добудьте сердце нежити из лошади-нежити.
+achievement.MoCreatures.heart_undead=Сердце нежити
+achievement.MoCreatures.heart_undead.desc=Добудьте сердце нежити из лошади-нежити.
   
-achievement.essence_undead=Эссенция нежити
-achievement.essence_undead.desc=Создайте эссенцию нежити.
+achievement.MoCreatures.essence_undead=Эссенция нежити
+achievement.MoCreatures.essence_undead.desc=Создайте эссенцию нежити.
   
-achievement.undead_horse=Лошадь-нежить
-achievement.undead_horse.desc=Накормите зошадь или любую другую особую лошадь эссенцией нежити, чтобы вывести новый вид — лошадь-нежить. Она питается только эссенцией нежити.
+achievement.MoCreatures.undead_horse=Лошадь-нежить
+achievement.MoCreatures.undead_horse.desc=Накормите зошадь или любую другую особую лошадь эссенцией нежити, чтобы вывести новый вид — лошадь-нежить. Она питается только эссенцией нежити.
   
-achievement.amulet_bone=Хранилище лошадей-скелетов
-achievement.amulet_bone.desc=Создайте костный амулет.
+achievement.MoCreatures.amulet_bone=Хранилище лошадей-скелетов
+achievement.MoCreatures.amulet_bone.desc=Создайте костный амулет.
   
-achievement.ghost_horse=Лошадь-призрак
-achievement.ghost_horse.desc=Иногда при смерти лошади 3 и выше уровней становятся призраками. Они питаются только эссенциями нежити.
+achievement.MoCreatures.ghost_horse=Лошадь-призрак
+achievement.MoCreatures.ghost_horse.desc=Иногда при смерти лошади 3 и выше уровней становятся призраками. Они питаются только эссенциями нежити.
   
-achievement.amulet_ghost=Хранилище лошадей-призраков
-achievement.amulet_ghost.desc=Создайте призрачный амулет.
+achievement.MoCreatures.amulet_ghost=Хранилище лошадей-призраков
+achievement.MoCreatures.amulet_ghost.desc=Создайте призрачный амулет.
   
-achievement.heart_fire=Сердце огня
-achievement.heart_fire.desc=Добудьте сердце огня из кошмарной лошади.
+achievement.MoCreatures.heart_fire=Сердце огня
+achievement.MoCreatures.heart_fire.desc=Добудьте сердце огня из кошмарной лошади.
   
-achievement.essence_fire=Эссенция огня
-achievement.essence_fire.desc=Создайте эссенцию огня.
+achievement.MoCreatures.essence_fire=Эссенция огня
+achievement.MoCreatures.essence_fire.desc=Создайте эссенцию огня.
   
-achievement.nightmare_horse=Кошмарная лошадь
-achievement.nightmare_horse.desc=Накормите приручённую зошадь эссенцией огня, чтобы вывести новый вид — кошмарную лошадь. Она невосприимчива к огню и питается только эссенциями огня.
+achievement.MoCreatures.nightmare_horse=Кошмарная лошадь
+achievement.MoCreatures.nightmare_horse.desc=Накормите приручённую зошадь эссенцией огня, чтобы вывести новый вид — кошмарную лошадь. Она невосприимчива к огню и питается только эссенциями огня.
   
-achievement.heart_darkness=Сердце тьмы
-achievement.heart_darkness.desc=Добудьте сердце тьмы из летучей лошади.
+achievement.MoCreatures.heart_darkness=Сердце тьмы
+achievement.MoCreatures.heart_darkness.desc=Добудьте сердце тьмы из летучей лошади.
   
-achievement.essence_darkness=Эссенция тьмы
-achievement.essence_darkness.desc=Создайте эссенцию тьмы.
+achievement.MoCreatures.essence_darkness=Эссенция тьмы
+achievement.MoCreatures.essence_darkness.desc=Создайте эссенцию тьмы.
   
-achievement.bat_horse=Летучая лошадь
-achievement.bat_horse.desc=Накормите приручённую зошадь эссенцией тьмы, чтобы вывести новый вид — летучую лошадь. Она умеет летать и питается только эссенциями тьмы.
+achievement.MoCreatures.bat_horse=Летучая лошадь
+achievement.MoCreatures.bat_horse.desc=Накормите приручённую зошадь эссенцией тьмы, чтобы вывести новый вид — летучую лошадь. Она умеет летать и питается только эссенциями тьмы.
   
-achievement.crystal_horse_armor=Кристальная броня
-achievement.crystal_horse_armor.desc=Самая прочная броня для особых лошадей.
+achievement.MoCreatures.crystal_horse_armor=Кристальная броня
+achievement.MoCreatures.crystal_horse_armor.desc=Самая прочная броня для особых лошадей.
   
-achievement.essence_light=Эссенция света
-achievement.essence_light.desc=Создайте эссенцию света, объединив три базовые эссенции.
+achievement.MoCreatures.essence_light=Эссенция света
+achievement.MoCreatures.essence_light.desc=Создайте эссенцию света, объединив три базовые эссенции.
   
-achievement.pegasus=Пегас
-achievement.pegasus.desc=Накормите летучую лошадь эссенцией света выше уровня y = 150, чтобы вывести новый вид — пегаса. Они умеют летать, восстанавливать здоровье и носить сундук. Питаются только эссенциями света.
+achievement.MoCreatures.pegasus=Пегас
+achievement.MoCreatures.pegasus.desc=Накормите летучую лошадь эссенцией света выше уровня y = 150, чтобы вывести новый вид — пегаса. Они умеют летать, восстанавливать здоровье и носить сундук. Питаются только эссенциями света.
   
-achievement.unicorn=Единорог
-achievement.unicorn.desc=Накормите кошмарную лошадь эссенцией света, чтобы вывести новый вид — единорога. Они могут восстанавливать здоровье, таранить всё на своём пути и планировать в воздухе. Питаются только эссенциями света.
+achievement.MoCreatures.unicorn=Единорог
+achievement.MoCreatures.unicorn.desc=Накормите кошмарную лошадь эссенцией света, чтобы вывести новый вид — единорога. Они могут восстанавливать здоровье, таранить всё на своём пути и планировать в воздухе. Питаются только эссенциями света.
   
-achievement.amulet_sky=Хранилище пегасов
-achievement.amulet_sky.desc=Создайте небесный амулет. Огонь для создания добывается с адских крыс.
+achievement.MoCreatures.amulet_sky=Хранилище пегасов
+achievement.MoCreatures.amulet_sky.desc=Создайте небесный амулет. Огонь для создания добывается с адских крыс.
   
-achievement.dark_pegasus=Тёмный пегас
-achievement.dark_pegasus.desc=Накормите пегаса эссенцией тьмы, чтобы вывести новый вид — тёмного пегаса. Самая сильная огнестойкая летающая лошадь с возможностью восстанавливать здоровье и нести сундук. Питается эссенциями света.
+achievement.MoCreatures.dark_pegasus=Тёмный пегас
+achievement.MoCreatures.dark_pegasus.desc=Накормите пегаса эссенцией тьмы, чтобы вывести новый вид — тёмного пегаса. Самая сильная огнестойкая летающая лошадь с возможностью восстанавливать здоровье и нести сундук. Питается эссенциями света.
   
-achievement.fairy_horse=Лошадь-фея!
-achievement.fairy_horse.desc=Сведите пегаса с единорогом, используя эссенции света, чтобы вывести новый наибыстрейший вид летающей лошадей — лошадь-фею. Если скормить лошади-фее краситель, у неё навсегда сменится фейский тип. Питается эссенциями света.
+achievement.MoCreatures.fairy_horse=Лошадь-фея!
+achievement.MoCreatures.fairy_horse.desc=Сведите пегаса с единорогом, используя эссенции света, чтобы вывести новый наибыстрейший вид летающей лошадей — лошадь-фею. Если скормить лошади-фее краситель, у неё навсегда сменится фейский тип. Питается эссенциями света.
   
-achievement.amulet_fairy=Хранилище лошадей-фей
-achievement.amulet_fairy.desc=Создайте фейский амулет. Огонь для создания добывается с адских крыс.
+achievement.MoCreatures.amulet_fairy=Хранилище лошадей-фей
+achievement.MoCreatures.amulet_fairy.desc=Создайте фейский амулет. Огонь для создания добывается с адских крыс.
   
-achievement.wyvern_portal_staff=Обитель виверн
-achievement.wyvern_portal_staff.desc=Создайте посох-портал виверн и посетите их логово. Вы можете вернуться в обычный мир, использовав посох-портал виверн на центральном блоке кварцевого портала.
+achievement.MoCreatures.wyvern_portal_staff=Обитель виверн
+achievement.MoCreatures.wyvern_portal_staff.desc=Создайте посох-портал виверн и посетите их логово. Вы можете вернуться в обычный мир, использовав посох-портал виверн на центральном блоке кварцевого портала.
   
-achievement.wyvern_egg=Самый быстрый
-achievement.wyvern_egg.desc=Добудьте яйцо виверны от матери. Питомцы едят сырых крыс и кроликов. Взрослых можно оседлать, одеть броню и дать сундук. Тропические, болотные, саванные, песочные виды и виверны-матери имеют особую реакцию на конкретные эссенции.
+achievement.MoCreatures.wyvern_egg=Самый быстрый
+achievement.MoCreatures.wyvern_egg.desc=Добудьте яйцо виверны от матери. Питомцы едят сырых крыс и кроликов. Взрослых можно оседлать, одеть броню и дать сундук. Тропические, болотные, саванные, песочные виды и виверны-матери имеют особую реакцию на конкретные эссенции.
   
-achievement.tame_elephant=Укротитель слонов
-achievement.tame_elephant.desc=Приручите слонёнка или мамонтёнка, поделившись с ним сахарными кубиками.
+achievement.MoCreatures.tame_elephant=Укротитель слонов
+achievement.MoCreatures.tame_elephant.desc=Приручите слонёнка или мамонтёнка, поделившись с ним сахарными кубиками.
   
-achievement.mount_elephant=Слоновий наездник
-achievement.mount_elephant.desc=Оседлайте взрослого слона или мамонта через упряжь. Присядьте рядом, чтобы он сел перед посадкой.
+achievement.MoCreatures.mount_elephant=Слоновий наездник
+achievement.MoCreatures.mount_elephant.desc=Оседлайте взрослого слона или мамонта через упряжь. Присядьте рядом, чтобы он сел перед посадкой.
   
-achievement.mammoth_platform=Платформа для двоих
-achievement.mammoth_platform.desc=Установите платформу на мамонта реки Сунгари с упряжью. Второй игрок может запрыгнуть на платформу, прыгнув рядом с мамонтом, пока он сидит и осёдлан другим игроком.
+achievement.MoCreatures.mammoth_platform=Платформа для двоих
+achievement.MoCreatures.mammoth_platform.desc=Установите платформу на мамонта реки Сунгари с упряжью. Второй игрок может запрыгнуть на платформу, прыгнув рядом с мамонтом, пока он сидит и осёдлан другим игроком.
   
-achievement.elephant_garment=Азиатский стиль
-achievement.elephant_garment.desc=Наденьте одеяние на азиатского слона.
+achievement.MoCreatures.elephant_garment=Азиатский стиль
+achievement.MoCreatures.elephant_garment.desc=Наденьте одеяние на азиатского слона.
   
-achievement.elephant_tusks=Боевая готовность
-achievement.elephant_tusks.desc=Наденьте бивни слону или мамонту. При ударе по ним кнутом с такими бивнями они будут ломать блоки впереди себя. Эффективность разрушения зависит от типа бивней и слона.
+achievement.MoCreatures.elephant_tusks=Боевая готовность
+achievement.MoCreatures.elephant_tusks.desc=Наденьте бивни слону или мамонту. При ударе по ним кнутом с такими бивнями они будут ломать блоки впереди себя. Эффективность разрушения зависит от типа бивней и слона.
   
-achievement.elephant_chest=Слоновий багаж
-achievement.elephant_chest.desc=Установите сундук слону или мамонту с упряжью. Слоны и мамонты могут иметь два слоновьих сундука. А мамонты вдобавок могут носить и два обычных сундука Minecraft. Нажимайте ПКМ крадучись, чтобы открывать сундуки.
+achievement.MoCreatures.elephant_chest=Слоновий багаж
+achievement.MoCreatures.elephant_chest.desc=Установите сундук слону или мамонту с упряжью. Слоны и мамонты могут иметь два слоновьих сундука. А мамонты вдобавок могут носить и два обычных сундука Minecraft. Нажимайте ПКМ крадучись, чтобы открывать сундуки.
   
-achievement.elephant_howdah=Ваша светлость
-achievement.elephant_howdah.desc=Установите хаудах на азиатского слона в одеянии.
+achievement.MoCreatures.elephant_howdah=Ваша светлость
+achievement.MoCreatures.elephant_howdah.desc=Установите хаудах на азиатского слона в одеянии.
   
-achievement.craft_medallion=Многоразовое переименование
-achievement.craft_medallion.desc=Создайте медальон для переименовывания питомцев.
+achievement.MoCreatures.craft_medallion=Многоразовое переименование
+achievement.MoCreatures.craft_medallion.desc=Создайте медальон для переименовывания питомцев.
   
-achievement.tame_kitty=Захват киски
-achievement.tame_kitty.desc=Приручите котёнка, оставив жареной рыбы рядом с ним, и надев на него медальон после того, как он немного её отведает.
+achievement.MoCreatures.tame_kitty=Захват киски
+achievement.MoCreatures.tame_kitty.desc=Приручите котёнка, оставив жареной рыбы рядом с ним, и надев на него медальон после того, как он немного её отведает.
   
-achievement.kitty_litter_box=Кошачий туалет
-achievement.kitty_litter_box.desc=Создайте лоток для котика.
+achievement.MoCreatures.kitty_litter_box=Кошачий туалет
+achievement.MoCreatures.kitty_litter_box.desc=Создайте лоток для котика.
   
-achievement.kitty_litter=Кошачьи дела
-achievement.kitty_litter.desc=Очистите использованный лоток песком. Процесс можно автоматизировать раздатчиком.
+achievement.MoCreatures.kitty_litter=Кошачьи дела
+achievement.MoCreatures.kitty_litter.desc=Очистите использованный лоток песком. Процесс можно автоматизировать раздатчиком.
   
-achievement.kitty_bed=Кошачья лежанка
-achievement.kitty_bed.desc=Создайте любую лежанку для котика.
+achievement.MoCreatures.kitty_bed=Кошачья лежанка
+achievement.MoCreatures.kitty_bed.desc=Создайте любую лежанку для котика.
   
-achievement.pet_food=Кормёжка кота
-achievement.pet_food.desc=Наполните лежанку молоком или кормом. Процесс можно автоматизировать раздатчиком.
+achievement.MoCreatures.pet_food=Кормёжка кота
+achievement.MoCreatures.pet_food.desc=Наполните лежанку молоком или кормом. Процесс можно автоматизировать раздатчиком.
   
-achievement.wool_ball=Игра с котиком
-achievement.wool_ball.desc=Создайте шерстяной клубок и дайте любопытному котику им поиграть.
+achievement.MoCreatures.wool_ball=Игра с котиком
+achievement.MoCreatures.wool_ball.desc=Создайте шерстяной клубок и дайте любопытному котику им поиграть.
   
-achievement.tame_big_cat=Укротитель больших кошек
-achievement.tame_big_cat.desc=Приручите детёныша большой кошки, подкинув ему сырого мяса и надев медальон после еды.
+achievement.MoCreatures.tame_big_cat=Укротитель больших кошек
+achievement.MoCreatures.tame_big_cat.desc=Приручите детёныша большой кошки, подкинув ему сырого мяса и надев медальон после еды.
   
-achievement.big_cat_claw=Охотник на больших кошек
-achievement.big_cat_claw.desc=Добудьте коготь большой кошки.
+achievement.MoCreatures.big_cat_claw=Охотник на больших кошек
+achievement.MoCreatures.big_cat_claw.desc=Добудьте коготь большой кошки.
   
-achievement.craft_whip=Время кнута!
-achievement.craft_whip.desc=Создайте кнут. С помощью него вы можете сажать питомцев. Во время езды он позволить поддать скорости, а на кошмарных лошадях, единорогах и слонах вызывает особенные эффекты.
+achievement.MoCreatures.craft_whip=Время кнута!
+achievement.MoCreatures.craft_whip.desc=Создайте кнут. С помощью него вы можете сажать питомцев. Во время езды он позволить поддать скорости, а на кошмарных лошадях, единорогах и слонах вызывает особенные эффекты.
   
-achievement.indiana=Прямо как Индиана Джонс
-achievement.indiana.desc=Используйте кнут на приручённой большой кошке более 6 раз.
+achievement.MoCreatures.indiana=Прямо как Индиана Джонс
+achievement.MoCreatures.indiana.desc=Используйте кнут на приручённой большой кошке более 6 раз.
   
-achievement.shark_tooth=Боксёр с акулами
-achievement.shark_tooth.desc=Добудьте акулий зуб.
+achievement.MoCreatures.shark_tooth=Боксёр с акулами
+achievement.MoCreatures.shark_tooth.desc=Добудьте акулий зуб.
   
-achievement.fish_net=Рыболовный сезон
-achievement.fish_net.desc=Создайте сеть для ловли и приручения самых водолюбивых созданий. Также вы можете использовать её для хранения любого водного питомца.
+achievement.MoCreatures.fish_net=Рыболовный сезон
+achievement.MoCreatures.fish_net.desc=Создайте сеть для ловли и приручения самых водолюбивых созданий. Также вы можете использовать её для хранения любого водного питомца.
   
-achievement.shark_sword=Очень зубастый меч
-achievement.shark_sword.desc=Создайте акулий меч. Акульи мечи можно чинить на наковальне, используя акульи зубы.
+achievement.MoCreatures.shark_sword=Очень зубастый меч
+achievement.MoCreatures.shark_sword.desc=Создайте акулий меч. Акульи мечи можно чинить на наковальне, используя акульи зубы.
   
-achievement.catch_fish_in_fish_bowl=Рыбка в аквариуме
-achievement.catch_fish_in_fish_bowl.desc=Поймайте рыбку в аквариум.
+achievement.MoCreatures.catch_fish_in_fish_bowl=Рыбка в аквариуме
+achievement.MoCreatures.catch_fish_in_fish_bowl.desc=Поймайте рыбку в аквариум.
   
-achievement.tame_bird=Птицелов
-achievement.tame_bird.desc=Приручите птицу, сначала бросая рядом семена, а потом откормив вручную из руки. Если разместить птицу на голове, она будет замедлять вам падения с высоких выступов.
+achievement.MoCreatures.tame_bird=Птицелов
+achievement.MoCreatures.tame_bird.desc=Приручите птицу, сначала бросая рядом семена, а потом откормив вручную из руки. Если разместить птицу на голове, она будет замедлять вам падения с высоких выступов.
   
-achievement.feed_snake_with_live_mouse=Живой корм
-achievement.feed_snake_with_live_mouse.desc=Накормите взрослую одомашненную змею живой мышью. Для этого используйте ПКМ с зажатой Shift с живой мышью в руке по змее.
+achievement.MoCreatures.feed_snake_with_live_mouse=Живой корм
+achievement.MoCreatures.feed_snake_with_live_mouse.desc=Накормите взрослую одомашненную змею живой мышью. Для этого используйте ПКМ с зажатой Shift с живой мышью в руке по змее.
   
-achievement.tame_panda=Укротитель панд
-achievement.tame_panda.desc=Приручите детёныша панды сахаром или бамбуком.
+achievement.MoCreatures.tame_panda=Укротитель панд
+achievement.MoCreatures.tame_panda.desc=Приручите детёныша панды сахаром или бамбуком.
   
-achievement.tame_scorpion=Скорпионовод
-achievement.tame_scorpion.desc=Приручите скорпионёнка поглаживаниями пустой рукой. Он питается гнилой плотью и крысятиной. Будучи взрослым, он сможет стать для вас ездовым. Также сможет карабкаться по стенам и снести новое яйцо при подкормке эссенцией тьмы.
+achievement.MoCreatures.tame_scorpion=Скорпионовод
+achievement.MoCreatures.tame_scorpion.desc=Приручите скорпионёнка поглаживаниями пустой рукой. Он питается гнилой плотью и крысятиной. Будучи взрослым, он сможет стать для вас ездовым. Также сможет карабкаться по стенам и снести новое яйцо при подкормке эссенцией тьмы.
   
-achievement.ostrich_egg=Похититель яиц
-achievement.ostrich_egg.desc=Сведите чёрного страуса и дикого коричневого страуса семенами арбуза и украдите яйцо. Как страусёнок повзрослеет, он сможет стать ездовым животным.
+achievement.MoCreatures.ostrich_egg=Похититель яиц
+achievement.MoCreatures.ostrich_egg.desc=Сведите чёрного страуса и дикого коричневого страуса семенами арбуза и украдите яйцо. Как страусёнок повзрослеет, он сможет стать ездовым животным.
   
-achievement.ostrich_helmet=Надёжное снаряжение
-achievement.ostrich_helmet.desc=Наденьте любой шлем на взрослого страуса.
+achievement.MoCreatures.ostrich_helmet=Надёжное снаряжение
+achievement.MoCreatures.ostrich_helmet.desc=Наденьте любой шлем на взрослого страуса.
   
-achievement.ostrich_chest=Страусиный багаж
-achievement.ostrich_chest.desc=Установите сундук на приручённого взрослого страуса. Нажимайте ПКМ крадучись для его открытия.
+achievement.MoCreatures.ostrich_chest=Страусиный багаж
+achievement.MoCreatures.ostrich_chest.desc=Установите сундук на приручённого взрослого страуса. Нажимайте ПКМ крадучись для его открытия.
   
-achievement.ostrich_flag=Знаменосец
-achievement.ostrich_flag.desc=Установите шерстяной блок на страуса с сундуком.
+achievement.MoCreatures.ostrich_flag=Знаменосец
+achievement.MoCreatures.ostrich_flag.desc=Установите шерстяной блок на страуса с сундуком.
   
-achievement.pet_amulet=Хранилище питомцев
-achievement.pet_amulet.desc=Создайте амулет питомцев. Он может хранить почти все виды питомцев.
+achievement.MoCreatures.pet_amulet=Хранилище питомцев
+achievement.MoCreatures.pet_amulet.desc=Создайте амулет питомцев. Он может хранить почти все виды питомцев.
   
-achievement.cook_omelette=Солнышко на сковороде
-achievement.cook_omelette.desc=Приготовьте омлет из любого яйца.
+achievement.MoCreatures.cook_omelette=Солнышко на сковороде
+achievement.MoCreatures.cook_omelette.desc=Приготовьте омлет из любого яйца.
   
-achievement.cook_turkey=Сытнее курицы
-achievement.cook_turkey.desc=Приготовьте сырую индейку.
+achievement.MoCreatures.cook_turkey=Сытнее курицы
+achievement.MoCreatures.cook_turkey.desc=Приготовьте сырую индейку.
   
-achievement.cook_ostrich=На вкус как говядина
-achievement.cook_ostrich.desc=Приготовьте сырого страуса.
+achievement.MoCreatures.cook_ostrich=На вкус как говядина
+achievement.MoCreatures.cook_ostrich.desc=Приготовьте сырого страуса.
   
-achievement.cook_rat=На вкус как курица
-achievement.cook_rat.desc=Приготовьте сырую крысятину.
+achievement.MoCreatures.cook_rat=На вкус как курица
+achievement.MoCreatures.cook_rat.desc=Приготовьте сырую крысятину.
   
-achievement.rat_burger=Гурман-крысоед
-achievement.rat_burger.desc=Приготовьте крысбургер.
+achievement.MoCreatures.rat_burger=Гурман-крысоед
+achievement.MoCreatures.rat_burger.desc=Приготовьте крысбургер.
   
-achievement.cook_crab=Морская классика
-achievement.cook_crab.desc=Приготовьте сырого краба.
+achievement.MoCreatures.cook_crab=Морская классика
+achievement.MoCreatures.cook_crab.desc=Приготовьте сырого краба.
   
-achievement.cook_turtle=Сомнительный деликатес
-achievement.cook_turtle.desc=Приготовьте черепаховый суп.
+achievement.MoCreatures.cook_turtle=Сомнительный деликатес
+achievement.MoCreatures.cook_turtle.desc=Приготовьте черепаховый суп.
   
-achievement.kill_wraith=Охотник за привидениями
-achievement.kill_wraith.desc=Убейте духа.
+achievement.MoCreatures.kill_wraith=Охотник за привидениями
+achievement.MoCreatures.kill_wraith.desc=Убейте духа.
   
-achievement.kill_ogre=Убийца огров
-achievement.kill_ogre.desc=Убейте огра.
+achievement.MoCreatures.kill_ogre=Убийца огров
+achievement.MoCreatures.kill_ogre.desc=Убейте огра.
   
-achievement.kill_werewolf=Убийца оборотней
-achievement.kill_werewolf.desc=Убейте оборотня в волчьей форме.
+achievement.MoCreatures.kill_werewolf=Убийца оборотней
+achievement.MoCreatures.kill_werewolf.desc=Убейте оборотня в волчьей форме.
   
-achievement.kill_big_golem=Убийца големов
-achievement.kill_big_golem.desc=Убейте большого голема и добудьте его ядро.
+achievement.MoCreatures.kill_big_golem=Убийца големов
+achievement.MoCreatures.kill_big_golem.desc=Убейте большого голема и добудьте его ядро.
   
-achievement.leonardo=Леонардо
-achievement.leonardo.desc=Получите катану от черепашки Леонардо. Вы можете приручать черепах, бросая тростник и кусочки арбуза рядом с ними. Катаны поддаются ремонту на наковальне с использованием железных слитков.
+achievement.MoCreatures.leonardo=Леонардо
+achievement.MoCreatures.leonardo.desc=Получите катану от черепашки Леонардо. Вы можете приручать черепах, бросая тростник и кусочки арбуза рядом с ними. Катаны поддаются ремонту на наковальне с использованием железных слитков.
 
-achievement.raphael=Рафаэль
-achievement.raphael.desc=Добудьте сай от черепашки Рафаэля. Вы можете приручать черепах, бросая тростник и кусочки арбуза рядом с ними. Сай поддаётся ремонту на наковальне с использованием железных слитков.
+achievement.MoCreatures.raphael=Рафаэль
+achievement.MoCreatures.raphael.desc=Добудьте сай от черепашки Рафаэля. Вы можете приручать черепах, бросая тростник и кусочки арбуза рядом с ними. Сай поддаётся ремонту на наковальне с использованием железных слитков.
   
-achievement.donatello=Донателло
-achievement.donatello.desc=Добудьте бо от черепашки Донателло. Вы можете приручать черепах, бросая тростник и кусочки арбуза рядом с ними.
+achievement.MoCreatures.donatello=Донателло
+achievement.MoCreatures.donatello.desc=Добудьте бо от черепашки Донателло. Вы можете приручать черепах, бросая тростник и кусочки арбуза рядом с ними.
   
-achievement.michelangelo=Микеланджело
-achievement.michelangelo.desc=Добудьте нунчаки от черепашки Микеланджело. Вы можете приручать черепах, бросая тростник и кусочки арбуза рядом с ними. Нунчаки поддаются ремонту на наковальне с использованием железных слитков.
+achievement.MoCreatures.michelangelo=Микеланджело
+achievement.MoCreatures.michelangelo.desc=Добудьте нунчаки от черепашки Микеланджело. Вы можете приручать черепах, бросая тростник и кусочки арбуза рядом с ними. Нунчаки поддаются ремонту на наковальне с использованием железных слитков.
   
-achievement.silver_sword=Гроза оборотней
-achievement.silver_sword.desc=Выбейте серебряный меч с серебряного скелета.
+achievement.MoCreatures.silver_sword=Гроза оборотней
+achievement.MoCreatures.silver_sword.desc=Выбейте серебряный меч с серебряного скелета.
   
-achievement.get_fur=Убийца зверушек
-achievement.get_fur.desc=Добудьте мех.
+achievement.MoCreatures.get_fur=Убийца зверушек
+achievement.MoCreatures.get_fur.desc=Добудьте мех.
   
-achievement.fur_armor=Эскимосский наряд
-achievement.fur_armor.desc=Создайте любую из частей комплекта меховой брони. Ремонтируется мехом на наковальне.
+achievement.MoCreatures.fur_armor=Эскимосский наряд
+achievement.MoCreatures.fur_armor.desc=Создайте любую из частей комплекта меховой брони. Ремонтируется мехом на наковальне.
   
-achievement.get_hide=Охотник
-achievement.get_hide.desc=Добудьте шкуру.
+achievement.MoCreatures.get_hide=Охотник
+achievement.MoCreatures.get_hide.desc=Добудьте шкуру.
   
-achievement.hide_armor=Выбор егеря
-achievement.hide_armor.desc=Создайте любую из частей комплекта шкурчатой брони. Ремонтируется шкурой на наковальне.
+achievement.MoCreatures.hide_armor=Выбор егеря
+achievement.MoCreatures.hide_armor.desc=Создайте любую из частей комплекта шкурчатой брони. Ремонтируется шкурой на наковальне.
   
-achievement.get_reptile_hide=Охотник на рептилий
-achievement.get_reptile_hide.desc=Добудьте рептилиевую чешую.
+achievement.MoCreatures.get_reptile_hide=Охотник на рептилий
+achievement.MoCreatures.get_reptile_hide.desc=Добудьте рептилиевую чешую.
   
-achievement.reptile_armor=Крепка как железо
-achievement.reptile_armor.desc=Создайте любую из частей комплекта чешуйчатой брони. Ремонтируется чешуёй на наковальне.
+achievement.MoCreatures.reptile_armor=Крепка как железо
+achievement.MoCreatures.reptile_armor.desc=Создайте любую из частей комплекта чешуйчатой брони. Ремонтируется чешуёй на наковальне.
   
-achievement.get_scorpion_material=Охотник на скорпионов
-achievement.get_scorpion_material.desc=Добудьте скорпионий хитин или жало.
+achievement.MoCreatures.get_scorpion_material=Охотник на скорпионов
+achievement.MoCreatures.get_scorpion_material.desc=Добудьте скорпионий хитин или жало.
   
-achievement.scorpion_sword=Мечник скорпионов
-achievement.scorpion_sword.desc=Создайте любой меч из скорпиона. Ремонтируется алмазами на наковальне.
+achievement.MoCreatures.scorpion_sword=Мечник скорпионов
+achievement.MoCreatures.scorpion_sword.desc=Создайте любой меч из скорпиона. Ремонтируется алмазами на наковальне.
   
-achievement.scorpion_armor=Воин скорпионов
-achievement.scorpion_armor.desc=Создайте любую из частей комплекта брони из скорпиона. Полный надетый комплект даёт бонус. Ремонтируется тем же скорпионьим хитином, из которого сделан, на наковальне.
+achievement.MoCreatures.scorpion_armor=Воин скорпионов
+achievement.MoCreatures.scorpion_armor.desc=Создайте любую из частей комплекта брони из скорпиона. Полный надетый комплект даёт бонус. Ремонтируется тем же скорпионьим хитином, из которого сделан, на наковальне.
 
-achievement.zonkey=Озёл
-achievement.zonkey.desc=Сведите приручённую зебру с ослом Minecraft, используя тыквы, торт или грибной суп. Такая лошадь сможет носить сундук.
+achievement.MoCreatures.zonkey=Озёл
+achievement.MoCreatures.zonkey.desc=Сведите приручённую зебру с ослом Minecraft, используя тыквы, торт или грибной суп. Такая лошадь сможет носить сундук.
 
-achievement.breed_kitty=Умножение милоты
-achievement.breed_kitty.desc=Сведите двух котиков вместе напротив лежанки, пока они оба в хорошем настроении, используя торт или рыбу.
+achievement.MoCreatures.breed_kitty=Умножение милоты
+achievement.MoCreatures.breed_kitty.desc=Сведите двух котиков вместе напротив лежанки, пока они оба в хорошем настроении, используя торт или рыбу.
 
-achievement.wyvern_ostrich=Виверновый страус
-achievement.wyvern_ostrich.desc=Накормите взрослого приручённого страуса эссенцией тьмы, чтобы вывести новый вид — вивернового страуса. Такой страус сможет летать. Питается эссенцией тьмы.
+achievement.MoCreatures.wyvern_ostrich=Виверновый страус
+achievement.MoCreatures.wyvern_ostrich.desc=Накормите взрослого приручённого страуса эссенцией тьмы, чтобы вывести новый вид — вивернового страуса. Такой страус сможет летать. Питается эссенцией тьмы.
 
-achievement.undead_ostrich=Страус-нежить
-achievement.undead_ostrich.desc=Накормите взрослого приручённого страуса эссенцией нежити, чтобы вывести новый вид — страуса-нежить. Каждый, кто оседлает такого страуса, будет игнорирован мобами-нежитью до 50 очков здоровья. Питается эссенцией нежити.
+achievement.MoCreatures.undead_ostrich=Страус-нежить
+achievement.MoCreatures.undead_ostrich.desc=Накормите взрослого приручённого страуса эссенцией нежити, чтобы вывести новый вид — страуса-нежить. Каждый, кто оседлает такого страуса, будет игнорирован мобами-нежитью до 50 очков здоровья. Питается эссенцией нежити.
 
-achievement.unihorn_ostrich=Единорогий страус
-achievement.unihorn_ostrich.desc=Получите единорогого страуса, накормив взрослого приручённого страуса эссенцией света. Этот страус может восстанавливать здоровье и таранить препятствия. Его можно лечить эссенцией света.
+achievement.MoCreatures.unihorn_ostrich=Единорогий страус
+achievement.MoCreatures.unihorn_ostrich.desc=Получите единорогого страуса, накормив взрослого приручённого страуса эссенцией света. Этот страус может восстанавливать здоровье и таранить препятствия. Его можно лечить эссенцией света.
 
-achievement.nether_ostrich=Незерский страус
-achievement.nether_ostrich.desc=Получите незерского страуса, накормив взрослого приручённого страуса эссенцией огня. Этот страус может так прыгать, что после начинает парить. Его можно лечить эссенцией огня.
+achievement.MoCreatures.nether_ostrich=Незерский страус
+achievement.MoCreatures.nether_ostrich.desc=Получите незерского страуса, накормив взрослого приручённого страуса эссенцией огня. Этот страус может так прыгать, что после начинает парить. Его можно лечить эссенцией огня.
 
-achievement.tame_dolphin=Укротитель дельфинов
-achievement.tame_dolphin.desc=Приручите взрослого дельфина, катаясь на нём. Дельфины защищают своих всадников от акул и могут совершать прыжки у поверхности воды. Породы дельфинов различаются по скорости и высоте прыжка, взрослых можно разводить с помощью рыбы.
+achievement.MoCreatures.tame_dolphin=Укротитель дельфинов
+achievement.MoCreatures.tame_dolphin.desc=Приручите взрослого дельфина, катаясь на нём. Дельфины защищают своих всадников от акул и могут совершать прыжки у поверхности воды. Породы дельфинов различаются по скорости и высоте прыжка, взрослых можно разводить с помощью рыбы.
 
-achievement.milk_goat=Дояр коз
-achievement.milk_goat.desc=Подоите взрослую козу в ведро. Коз можно приручить любым кормом.
+achievement.MoCreatures.milk_goat=Дояр коз
+achievement.MoCreatures.milk_goat.desc=Подоите взрослую козу в ведро. Коз можно приручить любым кормом.
 
-achievement.scorpion_armor.desc=Создайте любую часть комплекта скорпионьей брони. Полный комплект даёт уникальный бонус. Броню можно чинить на наковальне с использованием того же типа скорпионьего хитина.
+achievement.MoCreatures.scorpion_armor.desc=Создайте любую часть комплекта скорпионьей брони. Полный комплект даёт уникальный бонус. Броню можно чинить на наковальне с использованием того же типа скорпионьего хитина.
