@@ -1,0 +1,9 @@
+{
+    "item.fabric-content-registries-v0-testmod.smelting_fuel_excluded_by_item": "Топливо для плавки, исключённое по предмету",
+    "item.fabric-content-registries-v0-testmod.smelting_fuel_excluded_by_tag": "Топливо для плавки, исключённое по тегу",
+    "item.fabric-content-registries-v0-testmod.smelting_fuel_excluded_by_vanilla_tag": "Топливо для плавки, исключённое по ванильному тегу",
+    "item.fabric-content-registries-v0-testmod.smelting_fuel_included_by_item": "Топливо для плавки, включённое по предмету",
+    "item.fabric-content-registries-v0-testmod.smelting_fuel_included_by_tag": "Топливо для плавки, включённое по тегу",
+    "tag.item.fabric-content-registries-v0-testmod.smelting_fuels_excluded_by_tag": "Топлива для плавки, исключённые по тегу",
+    "tag.item.fabric-content-registries-v0-testmod.smelting_fuels_included_by_tag": "Топлива для плавки, включённые по тегу"
+}
