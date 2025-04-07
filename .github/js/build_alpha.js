@@ -532,42 +532,34 @@ async function generateReleaseNotes(changedFiles, sheets, nextTagInfo, lastTag) 
         }
     }
 
-    // 3) Изменённые переводы
-    if (modifiedChanges.length === 1) {
-        currentIndex++;
-        // Если этот элемент последний во всём списке — ставим точку, иначе — запятую
-        const endChar = currentIndex === totalItems ? '.' : ',';
-        finalList += `* 💱 изменён перевод мода ${modifiedChanges[0]}${endChar}\n`;
-    } else if (modifiedChanges.length > 1) {
-        // Если больше одного — делаем подсписок
-        finalList += `* 💱 изменены переводы модов:\n`;
+// 3) Изменённые переводы
+if (modifiedChanges.length === 1) {
+    currentIndex++;
+    // Если этот элемент последний во всём списке — ставим точку, иначе — запятую
+    const endChar = currentIndex === totalItems ? '.' : ',';
+    finalList += `* 💱 изменён перевод мода ${modifiedChanges[0]}${endChar}\n`;
+} else if (modifiedChanges.length > 1) {
+    // Если больше одного — делаем подсписок
+    finalList += `* 💱 изменены переводы модов:\n`;
 
-        // Спойлер, если более 8
-        if (modifiedChanges.length > 8) {
-            finalList += `\t<details>\n\t<summary>Раскрыть</summary>\n\t<br>\n\n`;
-        }
-
-        for (let i = 0; i < modifiedChanges.length; i++) {
-            currentIndex++;
-            const endChar = currentIndex === totalItems ? '.' : ',';
-            finalList += `\t* ${modifiedChanges[i]}${endChar}\n`;
-        }
-
-        if (modifiedChanges.length > 8) {
-            finalList += `\n\t</details>\n`;
-        } else {
-            finalList += `* 💱 изменены переводы модов:\n`;
-            for (let i = 0; i < modifiedChanges.length; i++) {
-                finalList += `\t* ${modifiedChanges[i]}${i === modifiedChanges.length - 1 ? '.' : ','}\n`;
-            }
-        }
+    // Спойлер, если более 8
+    if (modifiedChanges.length > 8) {
+        finalList += `\t<details>\n\t<summary>Раскрыть</summary>\n\t<br>\n\n`;
     }
 
-    // Убираем лишнюю запятую/перенос в конце, если остался
-    finalList = finalList.trim();
+    for (let i = 0; i < modifiedChanges.length; i++) {
+        currentIndex++;
+        const endChar = currentIndex === totalItems ? '.' : ',';
+        finalList += `\t* ${modifiedChanges[i]}${endChar}\n`;
+    }
 
-    return finalList;
+    if (modifiedChanges.length > 8) {
+        finalList += `\n\t</details>\n`;
+    }
 }
+
+// Убираем лишнюю запятую/перенос в конце, если остался
+finalList = finalList.trim();
 
 // Функция для получения версий архивов из предыдущего выпуска
 
