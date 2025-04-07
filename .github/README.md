@@ -443,6 +443,9 @@
 * * [Create Stuff & Additions](https://modrinth.com/mod/create-stuff-additions);
 * * [Create: The Factory Must Grow](https://modrinth.com/mod/create-tfmg);
 * * [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map);
+* [**LQMMan**](https://t.me/LQMMan): предложил перевод модов:
+* * [Butcher's Delight](https://modrinth.com/mod/butchers-delight);
+* * [Baubley Heart Canisters](https://modrinth.com/mod/baubley-heart-canisters);
 * [**Nord_Act**](https://github.com/NordAct): помогла с API;
 * [**devin**](https://github.com/intergrav): создал дизайн [кнопок](https://github.com/intergrav/devins-badges), используемых в этом ридми-файле.
 
