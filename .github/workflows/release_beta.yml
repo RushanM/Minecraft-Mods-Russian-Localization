@@ -1,4 +1,4 @@
-# Экшен для выпуска бета-пачки переводов
+# Рабочий процесс для выпуска бета-пачки переводов
 
 name: Выпустить бету
 
@@ -6,13 +6,13 @@ on:
   workflow_dispatch:
     inputs:
       publish_to_modrinth_and_curseforge:
-        description: 'Публиковать на Modrinth и CurseForge?'
+        description: "Публиковать на Модринт и Кёрсфордж?"
         required: false
-        default: 'false'
+        default: "false"
         type: choice
         options:
-          - 'true'
-          - 'false'
+          - "true"
+          - "false"
 
 jobs:
   build:
@@ -26,13 +26,10 @@ jobs:
       - name: Клонирование репозитория
         uses: actions/checkout@v4
 
-      - name: Установка Python
-        uses: actions/setup-python@v5
+      - name: Установка Go
+        uses: actions/setup-go@v4
         with:
-          python-version: '3.12' 
-
-      - name: Установка зависимостей
-        run: pip install gspread oauth2client requests
+          go-version: "1.24"
 
       - name: Установка утилиты ZIP
         run: sudo apt-get install -y zip
@@ -107,7 +104,7 @@ jobs:
         env:
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
           CF_API_KEY: ${{ secrets.CF_API_KEY }}
-        run: python .github/py/generate_mod_list.py
+        run: go run .github/go/generate_mod_list.go
 
       - name: Создание архивов выпусков для каждой из версий игр
         run: |
@@ -169,6 +166,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Подготовка общего текста списка изменений
+        run: |
+          echo "BETA_CHANGELOG_PREFIX=Это бета-версия русификатора для модов Minecraft" >> $GITHUB_ENV
+          echo "BETA_CHANGELOG_SUFFIX=Если вы обнаружите ошибки в этой версии, пожалуйста, сообщите об этом!" >> $GITHUB_ENV
+
       # Публикация на Modrinth и CurseForge
       - name: Публикация 1.7 на CurseForge и Modrinth
         if: github.event.inputs.publish_to_modrinth_and_curseforge == 'true'
@@ -185,9 +187,9 @@ jobs:
           version: 1.7-B${{ steps.get_latest_release.outputs.next_version }}
           version-type: beta
           changelog: |
-            Это бета-версия русификатора для модов Minecraft 1.7.x.
+            ${{ env.BETA_CHANGELOG_PREFIX }} 1.7.x.
 
-            Если вы обнаружите ошибки в этой версии, пожалуйста, сообщите об этом!
+            ${{ env.BETA_CHANGELOG_SUFFIX }}
 
             Эта бета-версия включает переводы следующих модов:
 
@@ -214,9 +216,9 @@ jobs:
           version: 1.12-B${{ steps.get_latest_release.outputs.next_version }}
           version-type: beta
           changelog: |
-            Это бета-версия русификатора для модов Minecraft 1.12.x.
+            ${{ env.BETA_CHANGELOG_PREFIX }} 1.12.x.
 
-            Если вы обнаружите ошибки в этой версии, пожалуйста, сообщите об этом!
+            ${{ env.BETA_CHANGELOG_SUFFIX }}
 
             Эта бета-версия включает переводы следующих модов:
 
@@ -243,9 +245,9 @@ jobs:
           version: 1.16-B${{ steps.get_latest_release.outputs.next_version }}
           version-type: beta
           changelog: |
-            Это бета-версия русификатора для модов Minecraft 1.16.x.
+            ${{ env.BETA_CHANGELOG_PREFIX }} 1.16.x.
 
-            Если вы обнаружите ошибки в этой версии, пожалуйста, сообщите об этом!
+            ${{ env.BETA_CHANGELOG_SUFFIX }}
 
             Эта бета-версия включает переводы следующих модов:
 
@@ -274,9 +276,9 @@ jobs:
           version: 1.17-B${{ steps.get_latest_release.outputs.next_version }}
           version-type: beta
           changelog: |
-            Это бета-версия русификатора для модов Minecraft 1.17.x.
+            ${{ env.BETA_CHANGELOG_PREFIX }} 1.17.x.
 
-            Если вы обнаружите ошибки в этой версии, пожалуйста, сообщите об этом!
+            ${{ env.BETA_CHANGELOG_SUFFIX }}
 
             Эта бета-версия включает переводы следующих модов:
 
@@ -306,9 +308,9 @@ jobs:
           version: 1.18-B${{ steps.get_latest_release.outputs.next_version }}
           version-type: beta
           changelog: |
-            Это бета-версия русификатора для модов Minecraft 1.18.x.
+            ${{ env.BETA_CHANGELOG_PREFIX }} 1.18.x.
 
-            Если вы обнаружите ошибки в этой версии, пожалуйста, сообщите об этом!
+            ${{ env.BETA_CHANGELOG_SUFFIX }}
 
             Эта бета-версия включает переводы следующих модов:
 
@@ -338,9 +340,9 @@ jobs:
           version: 1.19-B${{ steps.get_latest_release.outputs.next_version }}
           version-type: beta
           changelog: |
-            Это бета-версия русификатора для модов Minecraft 1.19.x.
+            ${{ env.BETA_CHANGELOG_PREFIX }} 1.19.x.
 
-            Если вы обнаружите ошибки в этой версии, пожалуйста, сообщите об этом!
+            ${{ env.BETA_CHANGELOG_SUFFIX }}
 
             Эта бета-версия включает переводы следующих модов:
 
@@ -371,9 +373,9 @@ jobs:
           version: 1.20-B${{ steps.get_latest_release.outputs.next_version }}
           version-type: beta
           changelog: |
-            Это бета-версия русификатора для модов Minecraft 1.20.x.
+            ${{ env.BETA_CHANGELOG_PREFIX }} 1.20.x.
 
-            Если вы обнаружите ошибки в этой версии, пожалуйста, сообщите об этом!
+            ${{ env.BETA_CHANGELOG_SUFFIX }}
 
             Эта бета-версия включает переводы следующих модов:
 
@@ -404,9 +406,9 @@ jobs:
           version: 1.21-B${{ steps.get_latest_release.outputs.next_version }}
           version-type: beta
           changelog: |
-            Это бета-версия русификатора для модов Minecraft 1.21.x.
+            ${{ env.BETA_CHANGELOG_PREFIX }} 1.21.x.
 
-            Если вы обнаружите ошибки в этой версии, пожалуйста, сообщите об этом!
+            ${{ env.BETA_CHANGELOG_SUFFIX }}
 
             Эта бета-версия включает переводы следующих модов:
 

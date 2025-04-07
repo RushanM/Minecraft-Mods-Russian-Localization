@@ -1,20 +1,25 @@
 {
-    "author": "",
-    "dependencies": {
-        "@actions/core": "^1.11.1",
-        "@actions/github": "^6.0.0",
-        "@octokit/rest": "^21.1.0",
-        "adm-zip": "^0.5.16",
-        "googleapis": "^144.0.0",
-        "semver": "^7.6.3"
-    },
-    "description": "Набор ресурсов, разрабатываемый для версий Minecraft от 1.6.x до 1.21.x, затрагивающий перевод модов, сделанных под загрузчики Forge, Fabric, Quilt и NeoForge.",
-    "keywords": [],
-    "license": "ISC",
-    "main": "index.js",
-    "name": "minecraft-mods-russian-translation",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "version": "1.0.0"
+  "author": "",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0",
+    "@octokit/rest": "^21.1.0",
+    "adm-zip": "^0.5.16",
+    "googleapis": "^144.0.0",
+    "semver": "^7.6.3"
+  },
+  "description": "Набор ресурсов, разрабатываемый для версий Minecraft от 1.6.x до 1.21.x, затрагивающий перевод модов, сделанных под загрузчики Forge, Fabric, Quilt и NeoForge.",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "minecraft-mods-russian-translation",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.7",
+    "@types/node": "^22.14.0",
+    "dotenv": "^16.4.7"
+  }
 }

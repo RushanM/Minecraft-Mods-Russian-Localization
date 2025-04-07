@@ -1,5 +1,4 @@
-# Экшен для обновления списка востребованных модов в ридми ветки альфы
-
+# Рабочий процесс для обновления списка востребованных модов в ридми ветки альфы
 name: Обновить востребованные моды
 
 on:
@@ -13,33 +12,68 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Установка Python 3.12
-        uses: actions/setup-python@v5
+      - name: Установка Go
+        uses: actions/setup-go@v4
         with:
-          python-version: '3.12'
-
-      - name: Установка зависимостей
-        run: |
-          python -m pip install --upgrade pip
-          pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
-          pip install requests
+          go-version: "1.24"
 
       - name: Запуск сценария обновления
         env:
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
           CFCORE_API_TOKEN: ${{ secrets.CFCORE_API_TOKEN }}
+        working-directory: .github/go
         run: |
-          python '.github/py/update_readme.py'
+          go run . update
 
       - name: Произведение изменений
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add README.md
-          git commit -m "Обновление таблицы востребованных модов" || echo "Изменений нет"
+          if [ -f ".github/go/readme_path.txt" ]; then
+            # Чтение пути к README.md
+            README_PATH=$(cat .github/go/readme_path.txt)
+            echo "Найден путь к README.md: $README_PATH"
+            
+            # Определение точного пути к файлу в репозитории
+            if [[ "$README_PATH" == "../README.md" ]]; then
+              # Файл находится в .github/README.md (один уровень выше от .github/go/)
+              REPO_PATH=".github/README.md"
+            elif [[ "$README_PATH" == "../../README.md" ]]; then
+              # Файл находится в корне репозитория (два уровня выше от .github/go/)
+              REPO_PATH="README.md"
+            elif [[ "$README_PATH" == "../.github/README.md" ]]; then
+              # Если путь содержит .github в середине
+              REPO_PATH=".github/README.md"
+            else
+              # Используем путь как есть
+              REPO_PATH="$README_PATH"
+            fi
+            
+            echo "Использую путь для git: $REPO_PATH"
+            # Проверка существования файла перед добавлением
+            if [ -f "$REPO_PATH" ]; then
+              echo "Файл $REPO_PATH существует"
+              # Добавляем ТОЛЬКО README.md, а не все изменения
+              git add "$REPO_PATH"
+              git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+              git config --local user.name "github-actions[bot]"
+              # Убираем флаг -a, чтобы не включать все изменённые файлы
+              git commit -m "Обновление востребованных модов" || echo "Нет изменений для внесения правки"
+              # Команда git push удалена отсюда
+            else
+              echo "Файл $REPO_PATH не существует"
+              # Поиск файла README.md в разных местах
+              find . -name "README.md" -type f | while read file; do
+                echo "Найден файл: $file"
+              done
+              exit 1
+            fi
+          else
+            echo "Файл readme_path.txt не найден"
+            exit 1
+          fi
 
       - name: Отправка изменений
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
+          force: false

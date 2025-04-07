@@ -1,5 +1,4 @@
-# Экшен для выпуска альфа-пачки переводов
-
+# Рабочий процесс для выпуска альфа-пачки переводов
 name: Выпустить альфу
 
 on:
@@ -27,17 +26,17 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Установка Node.js
-        uses: actions/setup-node@v4
+      - name: Установка Bun
+        uses: oven-sh/setup-bun@v2
         with:
-          node-version: 22.13.0
+          bun-version: latest
 
       - name: Установка зависимостей
-        run: npm install
+        run: bun install
         working-directory: .github
 
       - name: Запуск сценария сборки
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
-        run: node .github/js/build_alpha.js
+        run: bun .github/ts/build_alpha.ts
