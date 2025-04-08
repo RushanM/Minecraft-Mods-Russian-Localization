@@ -523,58 +523,81 @@ async function generateReleaseNotes(
     };
   });
 
-  // Сортируем сначала по названию, затем по версии игры
-  groupedList.sort((a, b) => {
-    // Сначала по названию мода
-    const nameCompare = a.name.localeCompare(b.name);
-    if (nameCompare !== 0) {
-      return nameCompare;
+  // Определяем порядок версий Майнкрафта от высших (1.21) к низшим
+  const versionOrder = {
+    "1.21": 17,
+    "1.20": 16,
+    "1.19": 15,
+    "1.18": 14,
+    "1.17": 13,
+    "1.16": 12,
+    "1.15": 11,
+    "1.14": 10,
+    "1.13": 9,
+    "1.12": 8,
+    "1.11": 7,
+    "1.10": 6,
+    "1.9": 5,
+    "1.8": 4,
+    "1.7": 3,
+    "1.6": 2,
+    "b1.7.3": 1,
+  };
+  
+  // Функция для получения базовой версии для каждого мода (без минорной части)
+  const getBaseVersion = (version: string) => {
+    return version.split(".").slice(0, 2).join(".");
+  };
+  
+  // Создаём структуру для группировки модов по версиям Майнкрафта
+  interface VersionGroup {
+    version: string;
+    weight: number;
+    mods: GroupedMod[];
+  }
+  
+  // Группировка модов по версиям Майнкрафта
+  const versionGroups: Record<string, VersionGroup> = {};
+  
+  groupedList.forEach(mod => {
+    // Найдём основную версию для этого мода на основе весов из versionOrder
+    const modVersions = mod.versions.map(v => ({
+      original: v.original,
+      baseVersion: getBaseVersion(v.original),
+      weight: versionOrder[getBaseVersion(v.original)] || 0
+    }));
+    
+    // Сортируем версии мода по их весу (более новые версии - выше)
+    modVersions.sort((a, b) => b.weight - a.weight);
+    
+    // Берём наиболее новую версию для группировки
+    if (modVersions.length > 0) {
+      const primaryVersion = modVersions[0].baseVersion;
+      const weight = modVersions[0].weight;
+      
+      if (!versionGroups[primaryVersion]) {
+        versionGroups[primaryVersion] = {
+          version: primaryVersion,
+          weight: weight,
+          mods: []
+        };
+      }
+      
+      versionGroups[primaryVersion].mods.push(mod);
     }
-
-    // Сортировка по порядку версий Майнкрафта от высших (1.21) к низшим
-    const versionOrder = {
-      "1.21": 17,
-      "1.20": 16,
-      "1.19": 15,
-      "1.18": 14,
-      "1.17": 13,
-      "1.16": 12,
-      "1.15": 11,
-      "1.14": 10,
-      "1.13": 9,
-      "1.12": 8,
-      "1.11": 7,
-      "1.10": 6,
-      "1.9": 5,
-      "1.8": 4,
-      "1.7": 3,
-      "1.6": 2,
-      "b1.7.3": 1,
-    };
-
-    // Получаем базовую версию для каждого мода (без минорной части)
-    const getBaseVersion = (version: string) => {
-      return version.split(".").slice(0, 2).join(".");
-    };
-
-    // Определяем значимость каждой версии на основе versionOrder
-    const aHighestVersion = a.versions.reduce((max, ver) => {
-      const baseVer = getBaseVersion(ver.original);
-      const weight = versionOrder[baseVer] || 0;
-      return Math.max(max, weight);
-    }, 0);
-
-    const bHighestVersion = b.versions.reduce((max, ver) => {
-      const baseVer = getBaseVersion(ver.original);
-      const weight = versionOrder[baseVer] || 0;
-      return Math.max(max, weight);
-    }, 0);
-
-    // Сортируем по убыванию весов версий (от высшей к низшей)
-    return bHighestVersion - aHighestVersion;
   });
-
-  // Формируем строки описаний для каждой группы
+  
+  // Преобразуем объект групп в массив и сортируем его по весу версий (от новых к старым)
+  const sortedVersionGroups = Object.values(versionGroups)
+    .sort((a, b) => b.weight - a.weight);
+  
+  // Сортируем моды внутри каждой версионной группы по алфавиту
+  sortedVersionGroups.forEach(group => {
+    group.mods.sort((a, b) => a.name.localeCompare(b.name));
+  });
+  
+  // Создаём плоский список модов, сгруппированных по версиям
+  groupedList = sortedVersionGroups.flatMap(group => group.mods);  // Формируем строки описаний для каждой группы
   for (const group of groupedList) {
     const { action, name, url, versions } = group;
     versions.sort((a, b) => a.numeric - b.numeric);
