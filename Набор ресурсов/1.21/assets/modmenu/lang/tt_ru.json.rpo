@@ -1,6 +1,6 @@
 {
-    "condition": "general.modsWordStyle === 'mod'",
-    "fallbacks": [
+    condition: "general.modsWordStyle == 'mod'",
+    fallbacks: [
         "assets/modmenu/lang/tt_ru_alt/hybrid.json",
         "assets/modmenu/lang/tt_ru_alt/modification.json"
     ]
