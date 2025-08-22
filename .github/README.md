@@ -469,7 +469,7 @@
 
 Также вы можете поддержать меня материально по следующим ссылкам:
 
-* [ВК-Пэй](https://vk.me/moneysend/deflecta),
+* [VK Donut](https://vk.com/deflcomm?w=donut_payment-71906125&levelId=106),
 * [Бусти](https://boosty.to/rushanm),
 * [Донейшн-алёртс](https://www.donationalerts.com/r/deflecta),
 * [Юмани](https://yoomoney.ru/to/410015215253910).
