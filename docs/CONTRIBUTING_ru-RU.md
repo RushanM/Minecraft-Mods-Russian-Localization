@@ -6,30 +6,30 @@
 
 1. Установите [GitHub Desktop](https://github.com/apps/desktop).
 
-<img title="1 снимок экрана GitHub Desktop" src="https://github.com/RushanM/Minecraft-Mods-Russian-Translation/blob/alpha/%D0%90%D1%81%D1%81%D0%B5%D1%82%D1%8B/contributing_m1_s1.png?raw=true">
+<img title="1 снимок экрана GitHub Desktop" src="https://github.com/RushanM/Minecraft-Mods-Russian-Translation/blob/master/%D0%90%D1%81%D1%81%D0%B5%D1%82%D1%8B/contributing_m1_s1.png?raw=true">
 
 2. Скопируйте ссылку на репозиторий проекта.
 3. Откройте первую вкладку в верхнем меню GitHub Desktop.
 
-<img title="2 снимок экрана GitHub Desktop" src="https://github.com/RushanM/Minecraft-Mods-Russian-Translation/blob/alpha/%D0%90%D1%81%D1%81%D0%B5%D1%82%D1%8B/contributing_m1_s2.png?raw=true">
+<img title="2 снимок экрана GitHub Desktop" src="https://github.com/RushanM/Minecraft-Mods-Russian-Translation/blob/master/%D0%90%D1%81%D1%81%D0%B5%D1%82%D1%8B/contributing_m1_s2.png?raw=true">
 
 4. Выберите пункт, соответствующий клонированию репозитория.
 5. Перейдите во вкладку клонирования через ссылку (URL).
 
-<img title="3 снимок экрана GitHub Desktop" src="https://github.com/RushanM/Minecraft-Mods-Russian-Translation/blob/alpha/%D0%90%D1%81%D1%81%D0%B5%D1%82%D1%8B/contributing_m1_s3.png?raw=true">
+<img title="3 снимок экрана GitHub Desktop" src="https://github.com/RushanM/Minecraft-Mods-Russian-Translation/blob/master/%D0%90%D1%81%D1%81%D0%B5%D1%82%D1%8B/contributing_m1_s3.png?raw=true">
 
 6. Вставьте скопированную ранее ссылку на репозиторий в поле.
 
-<img title="4 снимок экрана GitHub Desktop" src="https://github.com/RushanM/Minecraft-Mods-Russian-Translation/blob/alpha/%D0%90%D1%81%D1%81%D0%B5%D1%82%D1%8B/contributing_m1_s4.png?raw=true">
+<img title="4 снимок экрана GitHub Desktop" src="https://github.com/RushanM/Minecraft-Mods-Russian-Translation/blob/master/%D0%90%D1%81%D1%81%D0%B5%D1%82%D1%8B/contributing_m1_s4.png?raw=true">
 
 7. Склонируйте репозиторий. Должна появится шкала скачивания файлов.
 
-<img title="5 снимок экрана GitHub Desktop" src="https://github.com/RushanM/Minecraft-Mods-Russian-Translation/blob/alpha/%D0%90%D1%81%D1%81%D0%B5%D1%82%D1%8B/contributing_m1_s5.png?raw=true">
+<img title="5 снимок экрана GitHub Desktop" src="https://github.com/RushanM/Minecraft-Mods-Russian-Translation/blob/master/%D0%90%D1%81%D1%81%D0%B5%D1%82%D1%8B/contributing_m1_s5.png?raw=true">
 
 8. По окончанию скачивания нажмите на название ветки сверху (по умолчанию там будет выбрана ветка beta) и выберите alpha, так как вы будете редактировать раннюю среду проекта.
 9.  Откройте папку склонированного репозитория в Проводнике.
 
-<img title="6 снимок экрана GitHub Desktop" src="https://github.com/RushanM/Minecraft-Mods-Russian-Translation/blob/alpha/%D0%90%D1%81%D1%81%D0%B5%D1%82%D1%8B/contributing_m1_s6.png?raw=true">
+<img title="6 снимок экрана GitHub Desktop" src="https://github.com/RushanM/Minecraft-Mods-Russian-Translation/blob/master/%D0%90%D1%81%D1%81%D0%B5%D1%82%D1%8B/contributing_m1_s6.png?raw=true">
 
 10. Теперь вы можете редактировать файлы репозитория. Настоятельно рекомендую делать это через [Visual Studio Code](https://github.com/microsoft/vscode) или [VSCodium](https://github.com/VSCodium/vscodium) (оба названия можно сокращать до аббревиатуры VSC, что и будет использовано в тексте далее). Оба редактора обладают отличными возможностями для редактирования переводов.
 11. Как установите VSC, нажмите ПКМ по пустой области внутри папки склонированного репозитория и откройте папку в VSC. Либо сначала откройте VSC, а потом откройте в нём папку репозитория.

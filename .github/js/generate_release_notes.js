@@ -95,7 +95,7 @@ const { execSync } = require('child_process');
         // Заголовок
         const alphaNumber = parseInt(process.env.next_alpha, 10);
         let releaseNotes = `Это ${alphaNumber}-я альфа-версия всех переводов проекта.\n\n`;
-        releaseNotes += `Про то, как выходят ранние версии проекта, можете прочитать [здесь](https://github.com/RushanM/Minecraft-Mods-Russian-Translation/blob/alpha/Памятки/Именование%20выпусков.md).\n\n`;
+        releaseNotes += `Про то, как выходят ранние версии проекта, можете прочитать [здесь](https://github.com/RushanM/Minecraft-Mods-Russian-Translation/blob/master/Памятки/Именование%20выпусков.md).\n\n`;
 
         // Изменения
         const changes = {};

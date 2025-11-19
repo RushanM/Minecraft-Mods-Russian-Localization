@@ -15,9 +15,9 @@
 | Значок | Описание |
 | :-: | :-: |
 | <img width=80 height=80 src="https://cdn.modrinth.com/data/zaRGNexp/035ba5c471850838ead4165e608eaa3c8cc23cbf_96.webp"> | <big>**[Mana and Artifice](https://modrinth.com/mod/zaRGNexp)**</big><br>1.20<br>*10 просьб* |
-| <img width=80 height=80 src="/Ассеты/curseforge_mod_vector.svg"> | <big>**The Abyss II - The Other Side**</big><br>1.20<br>*4 просьбы* |
+| <img width=80 height=80 src="/assets/curseforge_mod_vector.svg"> | <big>**The Abyss II - The Other Side**</big><br>1.20<br>*4 просьбы* |
 | <img width=80 height=80 src="https://cdn.modrinth.com/data/PbNc6qBY/4662cc0de2f217742fe0b257ed9398244d9e298a_96.webp"> | <big>**[Blood Magic](https://modrinth.com/mod/PbNc6qBY)**</big><br>1.20<br>*3 просьбы* |
-| <img width=80 height=80 src="/Ассеты/curseforge_mod_vector.svg"> | <big>**Apotheosis**</big><br>1.20<br>*3 просьбы* |
+| <img width=80 height=80 src="/assets/curseforge_mod_vector.svg"> | <big>**Apotheosis**</big><br>1.20<br>*3 просьбы* |
 
 </div>
 
@@ -82,18 +82,18 @@
 
 <div align="center">
 <a href="https://modrinth.com/resourcepack/mods-ru">
-    <img height="35" src="/Ассеты/modrinth_compact_vector.svg">
+    <img height="35" src="/assets/modrinth_compact_vector.svg">
 </a>
 <a href="https://www.curseforge.com/minecraft/texture-packs/mods-ru">
-    <img height="35" src="/Ассеты/curseforge_compact_vector.svg">
+    <img height="35" src="/assets/curseforge_compact_vector.svg">
 <a href="https://www.planetminecraft.com/texture-pack/mods-russian-translation-6270800/">
-    <img height="35" src="/Ассеты/planet_compact_vector.svg">
+    <img height="35" src="/assets/planet_compact_vector.svg">
 </a>
 <a href="https://ru-minecraft.ru/fayly-dlya-minecraft/79004-mods-ru.html">
-    <img height="35" src="/Ассеты/rumc_compact_vector.svg">
+    <img height="35" src="/assets/rumc_compact_vector.svg">
 </a>
 <a href="https://vk.com/demipr">
-    <img height="35" src="/Ассеты/vk_compact_vector.svg">
+    <img height="35" src="/assets/vk_compact_vector.svg">
 </a>
 </a>
 </div>

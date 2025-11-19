@@ -300,7 +300,7 @@ func generateModsTable(topMods []ModCount, data []RequestData) []string {
 			iconHTML = fmt.Sprintf("<img width=80 height=80 src=\"%s\">", iconURL)
 		} else {
 			// Используем запасной значок
-			iconHTML = "<img width=80 height=80 src=\"/Ассеты/curseforge_mod_vector.svg\">"
+			iconHTML = "<img width=80 height=80 src=\"/assets/curseforge_mod_vector.svg\">"
 		}
 
 		var modLinkHTML string

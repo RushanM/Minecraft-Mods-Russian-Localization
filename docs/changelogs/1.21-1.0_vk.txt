@@ -1,0 +1,26 @@
+🇷🇺 Русский перевод модов — Редакция 1.0 для MC 1.21
+
+📥 Скачать:
+— Modrinth: https://modrinth.com/resourcepack/mods-ru/version/1.2..
+— CurseForge: https://www.curseforge.com/minecraft/texture-packs/mo..
+— Planet Minecraft: https://www.planetminecraft.com/texture-pack/mods-rus..
+— ру Майнкрафт: https://ru-minecraft.ru/fayly-dlya-minecraft/79004-mo..
+— GitHub: https://github.com/RushanM/Minecraft-Mods-Russian-Tra..
+
+📋 Информация:
+
+Первая редакция русификатора для Minecraft 1.21!
+
+Она включает в себя русский перевод следующих модов:
+— Applied Energistics 2 Wireless Terminals
+— Baubles 2
+— Dynamic FPS
+— Fabric
+— Macaw's Bridges
+— Macaw's Doors
+— Macaw's Fences and Walls
+— Mod Menu
+
+Переводу Macaw's Bridges, Macaw's Doors и Macaw's Fences and Walls поспособствовала новая участница проекта cutiegin, за что огромное ей спасибо!
+
+Также в редакцию вошёл пока не завершённый перевод Applied Energistics 2.
