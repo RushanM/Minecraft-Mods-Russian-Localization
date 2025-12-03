@@ -1,7 +1,0 @@
-{
-    "toolswap.key.toggle_toolswap_mode": "Переключить режим замены инструментов",
-    "toolswap.key.toggle_toolswap_notification": "Режим замены инструментов",
-    "toolswap.key.toggle_toolswap_notification.state_on": "включено",
-    "toolswap.key.toggle_toolswap_notification.state_off": "выключено",
-    "toolswap.warning": "НЕТ СВОБОДНОГО СЛОТА ДЛЯ ТОГО, ЧТОБЫ СОХРАНИТЬ ПОЛУСЛОМАННЫЙ ИНСТРУМЕНТ"
-}

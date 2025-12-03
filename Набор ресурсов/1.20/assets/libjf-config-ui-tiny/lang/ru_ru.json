@@ -1,4 +1,0 @@
-{
-    "libjf-config-ui-tiny.entry.json.read.fail.description": "Не удалось преобразовать выбранные записи в строки. Вам придётся редактировать настройки вручную в файлах игры.",
-    "libjf-config-ui-tiny.entry.json.read.fail.title": "Ошибка чтения"
-}

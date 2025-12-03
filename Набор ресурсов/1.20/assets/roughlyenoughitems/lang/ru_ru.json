@@ -1,9 +1,0 @@
-{
-    "config.roughlyenoughitems.config.RS_indicator": "Индикаторы",
-    "config.roughlyenoughitems.config.RS_indicator.RS_background": "Затемнять фон",
-    "config.roughlyenoughitems.config.RS_indicator.RS_falseSize": "Размер несовпадений",
-    "config.roughlyenoughitems.config.RS_indicator.RS_trueSize": "Размер совпадений",
-    "config.roughlyenoughitems.config.RS_keybind": "Переключить состояние поиска",
-    "config.roughlyenoughitems.config.RS_search": "Искать на",
-    "config.roughlyenoughitems.roughlysearchable": "Roughly Searchable"
-}

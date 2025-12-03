@@ -1,8 +1,0 @@
-{
-    "libjf-config-network-v0.modmenu.unavailable.title": "Недоступен",
-    "libjf-config-network-v0.modmenu.unavailable.description": "Сервер libjf-config-network-v0 недоступен",
-    "libjf-config-network-v0.modmenu.denied.title": "Отказано в доступе",
-    "libjf-config-network-v0.modmenu.denied.description": "Вы не имеете прав на редактирование настроек этого сервера",
-    "overview.jfconfig.title": "Обзор серверных модификаций"
-  }
-  

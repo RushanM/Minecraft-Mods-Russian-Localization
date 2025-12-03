@@ -1,7 +1,0 @@
-{
-  "demandOnClientMessage": "У вас не установлен No Chat Reports, а этот сервер настроен так, чтобы требовать его от всех подключающихся!",
-  "demandOnClient": false,
-  "convertToGameMessage": true,
-  "addQueryData": true,
-  "enableDebugLog": false
-}

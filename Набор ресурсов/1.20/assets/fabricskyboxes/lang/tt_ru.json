@@ -1,8 +1,0 @@
-{
-    "category.fabricskyboxes": "FabricSkyBoxes",
-    "fabricskyboxes.message.disabled": "FabricSkyBoxes сүнде!",
-    "fabricskyboxes.message.enabled": "FabricSkyBox кавынды!",
-    "key.fabricskyboxes.toggle": "FabricSkyBoxes режимын алмаштыру",
-    "key.fabricskyboxes.toggle.debug_hud": "Хаталарны төзәтү интерфейсының режимын алмаштыру",
-    "key.fabricskyboxes.toggle.debug_screen": "Хаталарны төзәтү экранының режимын алмаштыру"
-}

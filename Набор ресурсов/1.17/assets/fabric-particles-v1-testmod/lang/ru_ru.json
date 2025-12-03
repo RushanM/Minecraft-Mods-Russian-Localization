@@ -1,5 +1,0 @@
-{
-    "block.fabric-particles-v1-testmod.always_tinted": "Частицы пыли всегда затемнены",
-    "block.fabric-particles-v1-testmod.never_tinted": "Частицы пыли никогда не затемняются",
-    "block.fabric-particles-v1-testmod.tinted_over_water": "Частицы пыли затемняются только над водой"
-}

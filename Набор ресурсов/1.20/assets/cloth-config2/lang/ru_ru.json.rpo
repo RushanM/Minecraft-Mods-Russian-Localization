@@ -1,7 +1,0 @@
-{
-    condition: "general.mods_word_style.mod",
-    fallbacks: [
-        "assets/cloth-config2/lang/ru_ru_alt/hybrid.json",
-        "assets/cloth-config2/lang/ru_ru_alt/modification.json"
-    ]
-}

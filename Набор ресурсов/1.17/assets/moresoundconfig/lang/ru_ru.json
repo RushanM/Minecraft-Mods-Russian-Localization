@@ -1,8 +1,0 @@
-{
-  "sounddeviceoptions.default": "Определённое системой по умолчанию",
-  "sounddeviceoptions.output": "Устройство вывода: %s",
-  "sounddeviceoptions.newdevice": "Выберите новое устройство вывода",
-  "sounddeviceoptions.activedevice": "Текущее активное: %s",
-  "sounddeviceoptions.readFailed": "Не удалось получить данные о звуковых устройствах!",
-  "sounddeviceoptions.readFailedHint": "Возможно, ваш аудиодрайвер не поддерживает эту функцию"
-}

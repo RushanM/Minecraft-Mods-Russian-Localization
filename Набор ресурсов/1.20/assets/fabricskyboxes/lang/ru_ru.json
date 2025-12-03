@@ -1,8 +1,0 @@
-{
-    "category.fabricskyboxes": "FabricSkyBoxes",
-    "fabricskyboxes.message.disabled": "FabricSkyBoxes выключена!",
-    "fabricskyboxes.message.enabled": "FabricSkyBox включена!",
-    "key.fabricskyboxes.toggle": "Переключить режим FabricSkyBoxes",
-    "key.fabricskyboxes.toggle.debug_hud": "Переключить режим интерфейса отладки",
-    "key.fabricskyboxes.toggle.debug_screen": "Переключить режим экрана отладки"
-}

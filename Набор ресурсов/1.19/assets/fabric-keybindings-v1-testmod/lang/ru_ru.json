@@ -1,8 +1,0 @@
-{
-  "key.category.first.test": "Первая пробная категория",
-  "key.category.second.test": "Вторая пробная категория",
-  "key.fabric-key-binding-api-v1-testmod.test_keybinding_1": "Проба 1",
-  "key.fabric-key-binding-api-v1-testmod.test_keybinding_2": "Проба 2",
-  "key.fabric-key-binding-api-v1-testmod.test_keybinding_sticky": "Липкая проба",
-  "key.fabric-key-binding-api-v1-testmod.test_keybinding_duplicate": "Дублирующая проба"
-}

@@ -1,9 +1,0 @@
-tile.supercraftingframe.name=Рамка создания предметов
-tile.superitemframe.name=Рамка быстрого взятия предмета
-tile.supervoidframe.name=Рамка удаления предмета
-scf.missing.ingredient=Нехватка ингридиента: '%1$'
-scf.config.inventory_check.comment=Проверяйте инвентарь перед созданием новых предметов.
-scf.config.super_void_frame_particles.comment=Show void particles around the Super Void Frame.
-scf.craftingframe.mode.both=Игрок и сундук
-scf.craftingframe.mode.player=Только игрок
-scf.craftingframe.mode.inventory=Только сундук

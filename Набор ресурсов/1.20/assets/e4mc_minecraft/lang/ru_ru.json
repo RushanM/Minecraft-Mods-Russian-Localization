@@ -1,7 +1,0 @@
-{
-    "text.e4mc_minecraft.domainAssigned": "Мир открыт для всемирной сети по адресу [%s]",
-    "text.e4mc_minecraft.closeServer": "Мир закрыт от всемирной сети",
-    "text.e4mc_minecraft.serverAlreadyClosed": "Мир не размещён на сервере",
-    "text.e4mc_minecraft.clickToStop": " (Нажмите здесь, чтобы закрыть)",
-    "text.e4mc_minecraft.error": "Произошла ошибка e4mc"
-}

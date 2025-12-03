@@ -1,7 +1,0 @@
-{
-    condition: "general.mods_word_style.mod",
-    fallbacks: [
-        "assets/bocchium/lang/ru_ru_alt/hybrid.json",
-        "assets/bocchium/lang/ru_ru_alt/modification.json"
-    ]
-}

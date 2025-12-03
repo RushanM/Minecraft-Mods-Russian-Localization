@@ -1,7 +1,0 @@
-{
-    condition: "general.mods_word_style.mod",
-    fallbacks: [
-        "assets/fabric-resource-loader-v0/lang/ru_ru_alt/hybrid.json",
-        "assets/fabric-resource-loader-v0/lang/ru_ru_alt/modification.json"
-    ]
-}

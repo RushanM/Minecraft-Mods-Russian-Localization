@@ -1,9 +1,0 @@
-tile.easycrafting:table.easy_crafting.name=Улучшенный верстак
-tile.easycrafting:table.auto_crafting.name=Автоматический верстак
-
-container.easycrafting:table.auto_crafting=Автоматический верстак
-
-mode.easycrafting:pulse.tooltip=Крафт после каждого импульса
-mode.easycrafting:always.tooltip=Всегда включен
-mode.easycrafting:powered.tooltip=Крафт с сигналом
-mode.easycrafting:unpowered.tooltip=Крафт без сигнала

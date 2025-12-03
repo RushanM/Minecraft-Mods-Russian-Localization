@@ -1,7 +1,0 @@
-{
-    "toolswap.key.toggle_toolswap_mode": "Включить/выключить замену инструмента",
-    "toolswap.key.toggle_toolswap_notification": "Замена инструмента",
-    "toolswap.key.toggle_toolswap_notification.state_off": "выключена",
-    "toolswap.key.toggle_toolswap_notification.state_on": "включена",
-    "toolswap.warning": "НЕТ СВОБОДНОГО СЛОТА ДЛЯ ТОГО, ЧТОБЫ СОХРАНИТЬ ЛОМАЮЩИЙСЯ ИНСТРУМЕНТ"
-}

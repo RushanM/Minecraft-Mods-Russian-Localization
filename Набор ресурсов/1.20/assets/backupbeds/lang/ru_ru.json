@@ -1,5 +1,0 @@
-{
-    "message.backupbeds.can_already_respawn_at": "Это ваша %s%s точка возрождения",
-    "message.backupbeds.respawn_points_exceeded": "Превышен лимит точек возрождений. Сломайте предыдущую кровать",
-    "message.backupbeds.respawn_set": "Точка возрождения %s%s установлена"
-}

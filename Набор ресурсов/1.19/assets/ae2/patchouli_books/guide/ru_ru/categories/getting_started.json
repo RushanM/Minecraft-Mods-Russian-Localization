@@ -1,6 +1,0 @@
-{
-  "name": "Начало работы",
-  "icon": "ae2:meteorite_compass",
-  "sortnum": 0,
-  "description": "Это пошаговое руководство по началу работы с $(thing)Applied Energistics 2$(). Оно поможет вам найти свой первый $(l:ae2:getting_started/compass)Meteor$(/l), вырастить $(l:ae2:getting_started/certus)истинный кварц$() и настроить $(l:ae2:getting_started/inscriber)прессователь$()."
-}

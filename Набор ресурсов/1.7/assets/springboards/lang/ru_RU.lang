@@ -1,7 +1,0 @@
-tile.weakSpringBlock.name=Слабая пружина
-tile.mediumSpringBlock.name=Средняя пружина
-tile.strongSpringBlock.name=Сильная пружина
-
-itemGroup.tabSpringboards=Spring Boards
-
-springboards.msg.boing=Пиииууу!

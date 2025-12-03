@@ -1,6 +1,0 @@
-{
-    condition: [
-        general.mods_creative_tabs_style.moditems,
-        general.translate_mod_names
-    ]
-}

@@ -1,4 +1,0 @@
-{
-    condition: "general.translate_mod_names",
-    fallback: "assets/bwncr/lang/ru_ru_alt/mod_name_translated.json"
-}

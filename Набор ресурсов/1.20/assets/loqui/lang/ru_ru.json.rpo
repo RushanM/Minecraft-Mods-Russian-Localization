@@ -1,7 +1,0 @@
-{
-    condition: "general.mods_word_style.hybrid",
-    "fallbacks": [
-        "assets/loqui/lang/ru_ru_alt/mod.json",
-        "assets/loqui/lang/ru_ru_alt/modification.json"
-    ]
-}

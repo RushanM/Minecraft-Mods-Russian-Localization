@@ -1,6 +1,0 @@
-{
-    condition: general.removeEllipsis,
-    "fallbacks": [
-        "assets/ftblibrary/lang/ru_ru_alt/without_ellipsis.json"
-    ]
-}

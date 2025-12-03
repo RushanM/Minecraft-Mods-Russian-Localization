@@ -1,7 +1,0 @@
-{
-    "cos.command.clearcosarmor.success.multiple": "Удалено %s предметов из инвентаря косметической брони %s игроков",
-    "cos.command.clearcosarmor.success.single": "Удалено %s предметов из инвентаря косметической брони игрока %s",
-    "cos.gui.buttoncos": "Косметические доспехи",
-    "cos.gui.buttonnormal": "Обычные",
-    "cos.key.opencosarmorinventory": "Открыть инвентарь косметических доспехов"
-}

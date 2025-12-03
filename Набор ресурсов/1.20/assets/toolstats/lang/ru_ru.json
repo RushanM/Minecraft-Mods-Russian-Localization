@@ -1,7 +1,0 @@
-{
-    "tooltip.toolstats.efficiency": "Скорость добычи: %s",
-    "tooltip.toolstats.enchantability": "Потенциал зачарования: %d",
-    "tooltip.toolstats.harvestlevel": "Уровень добычи: %d",
-    "tooltip.toolstats.repaircost": "Цена починки: %d",
-    "tooltip.toolstats.when_on.horse": "На лошади:"
-}

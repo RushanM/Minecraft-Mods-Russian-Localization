@@ -1,5 +1,0 @@
-{
-    "text.autoconfig.cleardespawn.option.despawnTime": "Время до деспауна предметов (изменяйте только если предметы в сборке имеют разные лимиты по времени)",
-    "text.autoconfig.cleardespawn.option.flashStartTime": "Через сколько секунд предмет должен начать мигать, предвещая деспаун",
-    "text.autoconfig.cleardespawn.option.urgentFlash": "Отметьте, чтобы предмет мигал быстрее по мере приближения деспауна"
-}

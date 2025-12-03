@@ -1,7 +1,0 @@
-{
-    condition: "general.mods_creative_tabs_style",
-    "fallbacks": [
-        "assets/ae2/lang/ru_ru_alt/items.json",
-        "assets/ae2/lang/ru_ru_alt/original.json"
-    ]
-}

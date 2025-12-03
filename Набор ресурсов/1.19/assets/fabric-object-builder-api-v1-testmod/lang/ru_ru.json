@@ -1,7 +1,0 @@
-{
-  "block.fabric-object-builder-api-v1-testmod.added_betrayal_block": "Добавлен блок предательства",
-  "block.fabric-object-builder-api-v1-testmod.first_multi_betrayal_block": "Первый множественный блок предательства",
-  "block.fabric-object-builder-api-v1-testmod.initial_betrayal_block": "Изначальный блок предательства",
-  "block.fabric-object-builder-api-v1-testmod.second_multi_betrayal_block": "Второй множественный блок предательства",
-  "text.fabric-object-builder-api-v1-testmod.block_entity_type_success": "Блок предательства в %s имеет правильный тип сущности блока: %s"
-}

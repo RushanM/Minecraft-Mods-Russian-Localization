@@ -1,9 +1,0 @@
-{
-    "block.sawmill.sawmill": "Пилорама",
-    "container.sawmill.sawmill": "Пилорама",
-    "entity.minecraft.villager.carpenter": "Столяр",
-    "entity.minecraft.villager.sawmill.carpenter": "Столяр",
-    "sawmill.category.wood_cutting": "Резка древесины",
-    "subtitles.sawmill.entity.villager.work_carpenter": "Столярные работы",
-    "subtitles.sawmill.ui.sawmill.take_result": "Пилорама использована"
-}

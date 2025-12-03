@@ -1,7 +1,0 @@
-
-[general]
-	# Список предметов, разрешённых для размещения на поясе. Имеет приоритет над чёрным списком.
-	whitelist = ['storagedrawers:drawer_key', 'storagedrawers:quantify_key', 'storagedrawers:shroud_key']
-	# Список предметов, запрещённых для размещения на поясе. Белый список имеет приоритет.
-	blacklist = []
-
