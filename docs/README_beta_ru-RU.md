@@ -487,7 +487,7 @@
 
 * [VK Donut](https://vk.com/deflcomm?w=donut_payment-71906125&levelId=106),
 * [Бусти](https://boosty.to/rushanm),
-* [Донейшн-алёртс](https://www.donationalerts.com/r/deflecta),
+* [Донейшн-алёртс](https://www.donationalerts.com/r/deflecat),
 * [Юмани](https://yoomoney.ru/to/410015215253910).
 
 Спасибо за любой вклад!
