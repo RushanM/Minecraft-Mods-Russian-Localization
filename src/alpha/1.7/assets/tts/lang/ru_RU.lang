@@ -1,0 +1,10 @@
+tile.tube.name=Транспортная труба
+tile.station.name=Станция
+itemGroup.tts=Tube Transport System
+item.tube.forced=Направление: %s
+item.tube.direction.0=вниз
+item.tube.direction.1=вверх
+item.tube.direction.2=север
+item.tube.direction.3=юг
+item.tube.direction.4=восток
+item.tube.direction.5=запад
